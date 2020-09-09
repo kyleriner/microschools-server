@@ -42,6 +42,14 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+## Gems added after construction
+gem "jwt", "~> 2.2"
+gem "active_model_serializers", "~> 0.10.10"
+gem 'pry'
+gem 'rest-client'
+gem 'rack-cors'
+gem 'bcrypt', '~> 3.1.7'
+
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
